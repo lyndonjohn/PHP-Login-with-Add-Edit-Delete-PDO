@@ -1,6 +1,6 @@
 <?php
 # run this if you want to add first user
-$pdo_my = new PDO("mysql:host=127.0.0.1;dbname=db_test;charset=utf8mb4", 'testuser', 'im0102224');
+$pdo_my = new PDO("mysql:host=127.0.0.1;dbname=db_test;charset=utf8mb4", 'testuser', '');
 
 $uemail   = "jose@localhost.com";
 $uname    = "joserizal";
