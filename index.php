@@ -46,6 +46,8 @@ if(isset($_POST['btn-login']))
         <!-- Theme style -->
         <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
         <link rel="stylesheet" href="dist/css/animate.css">
+        <!-- Pace style -->
+        <link rel="stylesheet" href="plugins/pace/pace.css">
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -102,5 +104,7 @@ if(isset($_POST['btn-login']))
         <script src="<?php echo WEB_ROOT; ?>plugins/jQuery/jquery-2.2.3.min.js"></script>
         <!-- Bootstrap 3.3.6 -->
         <script src="<?php echo WEB_ROOT; ?>bootstrap/js/bootstrap.min.js"></script>
+        <!-- PACE -->
+        <script src="plugins/pace/pace.min.js"></script>
     </body>
 </html>

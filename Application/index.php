@@ -29,7 +29,7 @@ $date = new DateTime($lu_date);
     <!-- Theme style -->
     <link rel="stylesheet" href="<?php echo WEB_ROOT; ?>dist/css/AdminLTE.min.css">
     <!-- Pace style -->
-    <link rel="stylesheet" href="<?php echo WEB_ROOT; ?>plugins/pace/pace.min.css">
+    <link rel="stylesheet" href="<?php echo WEB_ROOT; ?>plugins/pace/pace.css">
     <!-- AdminLTE Skins. Choose a skin from the css/skins
     folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="<?php echo WEB_ROOT; ?>dist/css/skins/_all-skins.min.css">

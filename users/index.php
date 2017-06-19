@@ -165,7 +165,7 @@ if(isset($_GET['userID']))
 		folder instead of downloading all of them to reduce the load. -->
 		<link rel="stylesheet" href="<?php echo WEB_ROOT; ?>dist/css/skins/_all-skins.min.css">
 		<!-- Pace style -->
-		<link rel="stylesheet" href="<?php echo WEB_ROOT; ?>plugins/pace/pace.min.css">
+		<link rel="stylesheet" href="<?php echo WEB_ROOT; ?>plugins/pace/pace.css">
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
