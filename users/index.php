@@ -12,6 +12,7 @@ $lu_email = $userRow['useremail'];
 $lu_date  = $userRow['dateadded'];
 $date = new DateTime($lu_date);
 
+# for adding user
 if(isset($_POST['btn-add']))
 {
 	# check if user is logged-in
@@ -49,6 +50,7 @@ if(isset($_POST['btn-add']))
 	}
 }
 
+# for updating user
 if(isset($_POST['btn-update']))
 {
 	# check if user is logged-in
@@ -86,6 +88,7 @@ if(isset($_POST['btn-update']))
 	}
 }
 
+# for password update
 if(isset($_POST['btn-password']))
 {
 	# check if user is logged-in
@@ -113,6 +116,7 @@ if(isset($_POST['btn-password']))
 	}
 }
 
+# for deleting user
 if(isset($_GET['userID']))
 {
 	# check if user is logged-in
