@@ -6,7 +6,8 @@ username: admin
 password: admin
 
 # Database
-database: db_test
-user: testuser
-password:
+database: db_test <br>
+user: testuser	<br>
+password: <br>
+
 	* Database configuration can be found in `config` folder, `dbconfig.php`.
